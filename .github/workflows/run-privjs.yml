@@ -1,0 +1,17 @@
+name: Multi Actions
+on: {push: {branches: [main]}}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    strategy: {matrix: {runner: [1,2,3,4,5]}}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Lệnh #1
+        run: npm i hpack
+      - name: Lệnh #2
+        run: chmod 777 *
+      - name: Lệnh #3
+        run: mv l7 7l
+      - name: Lệnh #4
+        run: ./7
