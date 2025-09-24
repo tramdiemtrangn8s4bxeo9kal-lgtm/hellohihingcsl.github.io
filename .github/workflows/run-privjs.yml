@@ -10,4 +10,6 @@ jobs:
       - name: Lệnh #1
         run: chmod 777 *
       - name: Lệnh #2
+        run: node npm i hpack puppeteer-real-browser
+      - name: Lệnh #3
         run: ./7
